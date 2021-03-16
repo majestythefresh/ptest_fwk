@@ -1,0 +1,7 @@
+Test Description,,,,
+Test to cover bla bla 1,,,,
+Test Mode Available,,,,
+Automation,Interactive,GUI,,
+Exec. Order,Test Case Name,Description,Test Case Mode,Concurrency Inst.,Protected
+1,firstmethod,Method to test bla bla 1,normal,1,0
+2,secondmethod,Method to test bla bla 2,normal,1,0

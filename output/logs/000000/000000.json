@@ -1,0 +1,78 @@
+{
+  "start_date": "2018-09-03 16:31:08.155050",
+  "mode": "automation",
+  "profile": "profileexample1",
+  "test_execution": {
+    "testexample1": [
+      {
+        "method": "firstmethod",
+        "start_date": "2018-09-03 16:31:09.228413",
+        "end_date": "2018-09-03 16:31:14.233642",
+        "method_mode": "normal",
+        "concurrency_inst": "1",
+        "exit_status": 0,
+        "exit_msg": "Exit without error (0)"
+      },
+      {
+        "method": "secondmethod",
+        "start_date": "2018-09-03 16:31:15.305933",
+        "end_date": "2018-09-03 16:31:25.316191",
+        "method_mode": "normal",
+        "concurrency_inst": "1",
+        "exit_status": 0,
+        "exit_msg": "Exit without error (0)"
+      }
+    ],
+    "testexample2": [
+      {
+        "method": "firstmethod",
+        "start_date": "2018-09-03 16:31:26.393579",
+        "end_date": "2018-09-03 16:31:36.406725",
+        "method_mode": "normal",
+        "concurrency_inst": "1",
+        "exit_status": 0,
+        "exit_msg": "Exit without error (0)"
+      },
+      {
+        "method": "secondmethod",
+        "start_date": "2018-09-03 16:31:38.488926",
+        "end_date": "2018-09-03 16:31:42.493172",
+        "method_mode": "concurrency",
+        "concurrency_inst": "2",
+        "exit_status": 4,
+        "exit_msg": "Unknow reason exit"
+      },
+      {
+        "method": "secondmethod",
+        "start_date": "2018-09-03 16:31:39.489108",
+        "end_date": "2018-09-03 16:31:44.494417",
+        "method_mode": "concurrency",
+        "concurrency_inst": "3",
+        "exit_status": 5,
+        "exit_msg": "Unknow reason exit"
+      },
+      {
+        "method": "secondmethod",
+        "start_date": "2018-09-03 16:31:37.487519",
+        "end_date": "2018-09-03 16:31:47.489990",
+        "method_mode": "concurrency",
+        "concurrency_inst": "1",
+        "exit_status": 10,
+        "exit_msg": "Unknow reason exit"
+      },
+      {
+        "method": "thirdmethod",
+        "start_date": "2018-09-03 16:31:48.565453",
+        "end_date": "2018-09-03 16:31:53.570705",
+        "method_mode": "normal",
+        "concurrency_inst": "1",
+        "exit_status": 1,
+        "exit_msg": "Exit with error (1)"
+      }
+    ]
+  },
+  "end_date": "2018-09-03 16:31:53.579234",
+  "exit_status": 1,
+  "exit_msg": "Exit with error (1)",
+  "sha256sum": "bd0272cb09c7f88b4207cafc9f42c2dd8f863e7a6b511824bb45cb2d9f54b4f0"
+}

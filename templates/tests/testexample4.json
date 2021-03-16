@@ -1,0 +1,22 @@
+{
+    "type" : "test",
+    "name" : "testexample4",
+    "descp": "Test to cover bla bla 4",
+    "usermodes" : {
+        "automation" : 1,
+        "interactive" : 1,
+        "gui" : 1
+    },
+    "test_cases" : {
+        "1" : { "name" : "firstmethod",  "descp" : "Method to test bla bla 1",
+              "mode" : "normal", "concurrency_inst" : 1, "protected" : 1},
+        "2" : { "name" : "secondmethod", "descp" : "Method to test bla bla 2",
+              "mode" : "concurrency", "concurrency_inst" : 3, "protected" : 1, "args" : "test=first,color=red"},
+        "3" : { "name" : "thirdmethod",  "descp" : "Method to test bla bla 3",
+              "mode" : "normal", "concurrency_inst" : 1, "protected" : 0, "args" : "test=first"},
+        "4" : { "name" : "secondmethod", "descp" : "Method to test bla bla 2",
+              "mode" : "concurrency", "concurrency_inst" : 3, "protected" : 1, "args" : "test=second,color=blue"},
+        "5" : { "name" : "thirdmethod",  "descp" : "Method to test bla bla 3",
+              "mode" : "normal", "concurrency_inst" : 1, "protected" : 0, "args" : "test=second"}
+    }
+}

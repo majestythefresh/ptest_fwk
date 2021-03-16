@@ -1,0 +1,10 @@
+{
+    "type" : "profile",
+    "name" : "profileexample2",
+    "descp": "Profile to test bla bla 1",
+    "tests" : {
+        "1" : { "name" : "testexample1", "descp" : "Test to cover bla bla 1"},
+        "2" : { "name" : "testexample2", "descp" : "Test to cover bla bla 2"},
+        "3" : { "name" : "testexample3", "descp" : "Test to cover bla bla 3"}
+    }
+}
